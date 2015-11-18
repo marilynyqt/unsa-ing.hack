@@ -14,6 +14,7 @@ h1, h2, h3, h4{
 }
 .list-nav li{
 	display: inline-block;
+    background: #A30936;
 }
 .list-nav a{
 	display: inline block;
