@@ -7,10 +7,16 @@ body{
 	font-size:  13px;
 	text-align: center;
 }
-h1, h2, h3, h4{
+h1, h2, h3, {
 	color:#707070;
 	font-family: "oswald", arial, sans-serif;
 	text-align: center;
+}
+h4{
+	color:#707070;
+	font-family: "oswald", arial, sans-serif;
+	text-align: left;
+	padding: 10px;
 }
 .list-nav{
 	text-align: center;
@@ -22,7 +28,7 @@ h1, h2, h3, h4{
 .list-nav a{
 	display: inline block;
 	padding: 5px 20px;
-	color: #555555;
+	color: #FDFDFD;
 	font-family: "oswald", arial, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -51,35 +57,36 @@ h1, h2, h3, h4{
 	padding: 20px;
 	text-align: left;
 }
-
 .header{
 	padding: 5px 10px ;
 	margin: auto;
 	color: #95917F;
-	border-bottom: solid #000000 1px;
 	background: #FFFFFF;
+	margin: 10px;
 }
 .header1{
 	padding: 5px 10px ;
 	margin: auto;
-	color: #FFFFFF;
+	color: #7B5656;
 	border-bottom: solid #FFFFFF 1px;
-	background: #FFFFFF;
+	background: #EFECE7;
 }
 .logo{
-	width: 200px;
+
+	width: 150px;
 	height: 100px;
-	background: 
+	
 }
 nav ul{
 	list-style-type: none;
-	padding-top: 34px;
-	margin: 0 -15px 0 0;
-	float: right;
+	padding: 10px;
+	margin: 30px;
+	float: left;
 	font-size: 14px;
 	line-height: 14px;
 	text-transform: ;
-	white-space: nowrap; 
+	white-space: nowrap;
+	background: #A30934 ;
 
 }
 nav li{
@@ -103,11 +110,18 @@ nav a:hover{
 	color: #fff;
 }
 p{
-	text-align: left;
+	text-align: justify;
 	font-family:'Roboto', sans-serif;
+	font-size: 15px;
 	height: 100%;
+	width: 100% ;
+    padding: 20px;
+}
+.contenedor{
 	width: 100%;
-	padding: 20px 20px;
+	height: 100%;
+	padding: 50px;
+	background: #EFECE7;
 }
 .marco{
 	width: 100%;
@@ -115,6 +129,7 @@ p{
 	border: solid #ED9819 1px;
 	padding: 5px;
 	text-align: center;
+	margin: 15px;
 }
 .bajo  {
 	height: 100px;
