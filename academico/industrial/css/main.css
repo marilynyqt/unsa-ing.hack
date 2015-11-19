@@ -55,7 +55,7 @@ h1, h2, h3, h4{
 .header{
 	padding: 5px 10px ;
 	margin: auto;
-	color: #000000;
+	color: #95917F;
 	border-bottom: solid #000000 1px;
 	background: #FFFFFF;
 }
@@ -104,13 +104,21 @@ nav a:hover{
 }
 p{
 	text-align: left;
-	font-size: 10px;
-	font-family: 
-
+	font-family:'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	padding: 20px 20px;
 }
-.bajo .container {
+.marco{
+	width: 100%;
+	height: 50px;
+	border: solid #ED9819 1px;
+	padding: 5px;
+	text-align: center;
+}
+.bajo  {
 	height: 100px;
 	background:#95917F;
-	padding: 20px
+	padding: 20px;
 
 }
