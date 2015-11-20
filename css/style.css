@@ -1,45 +1,36 @@
+body{
+  background: #8A0808;
+}
 .menu{
-  background:#A30936;
-  padding: 10px;
-  width: 1361px; 
+  background: #6E6E6E;
+  width: 1340px;
 }
-.menu li:hover{
-  background-color:#8A0829;
-}
-.list-nav li:hover{
-  text-decoration: none;
-  transform: scale(1.2)
-  }
-.menu li{
+.dropdown{
   display: inline-block;
-  padding: 10px;
-  box-shadow: 2px 2px 5px #610B21;
+  margin: 10px 0 0;
 }
-.menu a{
+.dropdown a{
   color: white;
-  font-size: 16px;
+  padding: 30px;
 }
-.imagenes  li img{
-  width: 100px;
+.list li{
+  transition: 0.5s;
 }
-.escuelas {
-  background: #DDD7CB;
-  width: 1361px;  
+.list li:hover{
+  box-shadow: 2px 2px 5px #610B21;
+  background: #D8D8D8;
 }
-.noticias{
-  background:url(../img/fondos/imagen2.png);
-  background-size: cover;
-  width: 1361px;
-  padding: 20px;
-  overflow-y:auto; 
+.imagenes{
+  width: 1340px;
 }
-.nota{
-  background:#FACC2E;
-  width: 35%;
-  border-radius: 5px 30px 45px 60px;
-  box-shadow: 2px 2px 5px #999; 
+.escuelas{
+  background: #FF8000;
+  width: 1350px;
 }
-.nota img{
-  width: 200px;
-  height: 200px;
+.escuelas a{
+  color: #2A1B0A;
+  text-decoration: none;
+}
+.escuelas a:hover{
+  transform: scale(1.2)
 }
