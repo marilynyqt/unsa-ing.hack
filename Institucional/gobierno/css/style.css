@@ -3,6 +3,8 @@ h2{
 }
 body{
   background: #8A0808;
+  height: 100%;
+  width: 100%;
 }
 .misi{
   padding: 50px;
