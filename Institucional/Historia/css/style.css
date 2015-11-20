@@ -1,0 +1,74 @@
+.hist{
+	background: #FF8000;
+}
+h2{
+	color: #3B170B;
+}
+.row{
+	border: transparent;
+	padding: 60px;
+	display: table;
+}
+.hist p{
+	padding: 10px;
+	text-align: justify;
+}
+body{
+  background: #8A0808;
+}
+.menu{
+  background: #6E6E6E;
+  width: 100%;
+  padding: 10px;
+}
+.dropdown{
+  display: inline-block;
+  margin: 10px 0 0;
+}
+.dropdown a{
+  color: white;
+  padding: 30px;
+}
+.list li{
+  transition: 0.5s;
+}
+.list li:hover{
+  box-shadow: 2px 2px 5px #610B21;
+  background: #D8D8D8;
+}
+.imagenes{
+  width: 100%;
+}
+.escuelas{
+  background: #FF8000;
+  width: 100%;
+  padding: 40px;
+}
+.escuelas a{
+  color: #2A1B0A;
+  text-decoration: none;
+}
+.escuelas a:hover{
+  transform: scale(1.2)
+}
+.noticias{
+  background: #F3F781;
+  width: 100%;
+  padding: 30px;
+}
+.nota{
+  padding: 40px;
+}
+.nota img{
+  width: 200px;
+  height: 200px;
+  margin: 0 0 20px;
+}
+.direc{
+  background: #19070B;
+  width: 100%;
+  padding: 30px;
+}
+.direc p{
+  color: white;
+}
