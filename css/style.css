@@ -3,6 +3,9 @@ body{
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+h2 h3 h4{
+  font-color: #A30936;
+}
 .menu{
 <<<<<<< HEAD
   background: #95917F;
@@ -12,6 +15,8 @@ body{
 .main-menu.row{
   background: #95917F;
   width: 100%;
+  display: inline-block;
+
 }
 .dropdown{
   display: inline-block;
@@ -59,7 +64,7 @@ body{
   margin: 0 0 20px;
 }
 .direc{
-  background: #A30936;
+  background: white;
   width: 100%;
   padding: 30px;
 }
