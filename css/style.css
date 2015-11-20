@@ -1,5 +1,5 @@
 body{
-  background: #DDD7CB;
+  background: #EFECE7;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
@@ -8,11 +8,10 @@ body{
   background: #95917F;
   width: 100%;
   height: 150px;
-
-=======
-  background: #6E6E6E;
+}
+.main-menu.row{
+  background: #95917F;
   width: 100%;
->>>>>>> 2c407b9ac3c5d6c717b14b4bf61fc77639e544a6
 }
 .dropdown{
   display: inline-block;
@@ -20,7 +19,7 @@ body{
   text-align: center;
 }
 .dropdown a{
-  color: white;
+  color: #333;
   padding: 30px;
   margin: 15px;
 }
@@ -35,7 +34,7 @@ body{
   width: 100%;
 }
 .escuelas{
-  background: #FF8000;
+  background: #95917F;
   width: 100%;
   padding: 40px;
 }
@@ -47,7 +46,7 @@ body{
   transform: scale(1.2)
 }
 .noticias{
-  background: #F3F781;
+  background: #DDD7CB;
   width: 100%;
   padding: 30px;
 }
@@ -60,10 +59,10 @@ body{
   margin: 0 0 20px;
 }
 .direc{
-  background: #19070B;
+  background: #A30936;
   width: 100%;
   padding: 30px;
 }
 .direc p{
-  color: white;
+  color: solid gray;
 }
