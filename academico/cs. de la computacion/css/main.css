@@ -65,7 +65,7 @@
 
 .titulo {
   background:#95917F;
-  font: 3.4em/1 Open Sans, Impact;
+  font: 2.4em/1 Open Sans, Impact;
   text-transform: uppercase;
   height: 200px;
 }
@@ -101,10 +101,11 @@ li{
 }
 .obj{
   background: #EFECE7;
-  width: 35%;
-  height: 35%;
+  width: 70%;
+  height: 50%;
   border-radius: 5px 30px 45px 60px;
   box-shadow: 2px 2px 5px #999;
+ margin: 20px;
 }
 {
   color: black;
@@ -119,7 +120,7 @@ li{
   border:transparent;
   display: table;
 }
-.contactos .container{
+.contactos-container{
 background: #95917F;
 font: 4.4em/1 Open Sans, Impact;
 text-transform: uppercase;
