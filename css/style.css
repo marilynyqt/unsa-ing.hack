@@ -3,7 +3,7 @@ body{
 }
 .menu{
   background: #6E6E6E;
-  width: 1340px;
+  width: 100%;
 }
 .dropdown{
   display: inline-block;
@@ -21,11 +21,12 @@ body{
   background: #D8D8D8;
 }
 .imagenes{
-  width: 1340px;
+  width: 100%;
 }
 .escuelas{
   background: #FF8000;
-  width: 1350px;
+  width: 100%;
+  padding: 40px;
 }
 .escuelas a{
   color: #2A1B0A;
@@ -33,4 +34,25 @@ body{
 }
 .escuelas a:hover{
   transform: scale(1.2)
+}
+.noticias{
+  background: #F3F781;
+  width: 100%;
+  padding: 30px;
+}
+.nota{
+  padding: 40px;
+}
+.nota img{
+  width: 200px;
+  height: 200px;
+  margin: 0 0 20px;
+}
+.direc{
+  background: #19070B;
+  width: 100%;
+  padding: 30px;
+}
+.direc p{
+  color: white;
 }
