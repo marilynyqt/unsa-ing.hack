@@ -65,7 +65,7 @@
 
 .titulo {
   background:#95917F;
-  font: 4.4em/1 Open Sans, Impact;
+  font: 3.4em/1 Open Sans, Impact;
   text-transform: uppercase;
   height: 200px;
 }
@@ -118,4 +118,10 @@ li{
   width: 800px;
   border:transparent;
   display: table;
+}
+.contactos .container{
+background: #95917F;
+font: 4.4em/1 Open Sans, Impact;
+text-transform: uppercase;
+height: 200px;
 }
