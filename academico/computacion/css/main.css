@@ -86,7 +86,7 @@ li{
   border:transparent;
 }
 .industrial{
-  background: #DDD7CB;
+  background: #DDD7Ca;
   width: 1345;
 }
 .industrial p{
@@ -97,12 +97,12 @@ li{
   padding:20px;
 }
 .cuadro{
-  padding: 40px;
+  padding: 40px;jy
 }
 .obj{
   background: #EFECE7;
   width: 35%;
-  height: 35%;
+  height: 70%;
   border-radius: 5px 30px 45px 60px;
   box-shadow: 2px 2px 5px #999;
 }
