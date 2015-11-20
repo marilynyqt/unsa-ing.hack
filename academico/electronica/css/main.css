@@ -76,7 +76,7 @@ svg {
   height: 100%;
 }
 h2,p,li{
-  color: gray;
+  color: #383434;
 }
 li{
   text-align: justify;
@@ -86,11 +86,11 @@ li{
   border:transparent;
 }
 .industrial{
-  background: #EFECE7;
+  background: #DDD7CB;
   width: 1345;
 }
 .industrial p{
-  color:  gray;
+  color:  #383434;
   width:80%;
   position: relative;
   left:10%;

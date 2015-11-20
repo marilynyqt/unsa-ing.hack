@@ -65,7 +65,7 @@
 
 .titulo {
   background:#95917F;
-  font: 2.4em/1 Open Sans, Impact;
+  font: 3.4em/1 Open Sans, Impact;
   text-transform: uppercase;
   height: 200px;
 }
@@ -76,7 +76,7 @@ svg {
   height: 100%;
 }
 h2,p,li{
-  color: gray;
+  color: #383434;
 }
 li{
   text-align: justify;
@@ -86,11 +86,11 @@ li{
   border:transparent;
 }
 .industrial{
-  background: #EFECE7;
+  background: #DDD7CB;
   width: 1345;
 }
 .industrial p{
-  color:  gray;
+  color:  #383434;
   width:80%;
   position: relative;
   left:10%;
@@ -101,11 +101,10 @@ li{
 }
 .obj{
   background: #EFECE7;
-  width: 70%;
-  height: 50%;
+  width: 35%;
+  height: 35%;
   border-radius: 5px 30px 45px 60px;
   box-shadow: 2px 2px 5px #999;
- margin: 20px;
 }
 {
   color: black;
@@ -120,7 +119,7 @@ li{
   border:transparent;
   display: table;
 }
-.contactos-container{
+.contactos .container{
 background: #95917F;
 font: 4.4em/1 Open Sans, Impact;
 text-transform: uppercase;
