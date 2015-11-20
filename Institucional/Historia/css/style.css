@@ -1,28 +1,33 @@
+.hist{
+	background: #FF8000;
+}
+h2{
+	color: #3B170B;
+}
+.row{
+	border: transparent;
+	padding: 60px;
+	display: table;
+}
+.hist p{
+	padding: 10px;
+	text-align: justify;
+}
 body{
-  background: #DDD7CB;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+  background: #8A0808;
 }
 .menu{
-<<<<<<< HEAD
-  background: #95917F;
-  width: 100%;
-  height: 150px;
-
-=======
   background: #6E6E6E;
   width: 100%;
->>>>>>> 2c407b9ac3c5d6c717b14b4bf61fc77639e544a6
+  padding: 10px;
 }
 .dropdown{
   display: inline-block;
-  margin: 30px 10px ;
-  text-align: center;
+  margin: 10px 0 0;
 }
 .dropdown a{
   color: white;
   padding: 30px;
-  margin: 15px;
 }
 .list li{
   transition: 0.5s;
