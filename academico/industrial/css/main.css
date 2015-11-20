@@ -1,139 +1,121 @@
+/* Main styles */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
 
-*{outline: 1px red;
-	}
-body{
-	color:#555555;
-	font-family:  arial, sans-serif;
-	font-size:  13px;
-	text-align: center;
+.text--transparent {
+  fill: transparent;
 }
-h1, h2, h3, {
-	color:#707070;
-	font-family: "oswald", arial, sans-serif;
-	text-align: center;
-}
-h4{
-	color:#707070;
-	font-family: "oswald", arial, sans-serif;
-	text-align: left;
-	padding: 10px;
-}
-.list-nav{
-	text-align: center;
-}
-.list-nav li{
-	display: inline-block;
-    background: #A30936;
-}
-.list-nav a{
-	display: inline block;
-	padding: 5px 20px;
-	color: #FDFDFD;
-	font-family: "oswald", arial, sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
-	background: #A30936
-}
-.list-nav a:hover{
-	text-decoration: none;
-	background: #ECECEC;
-	transform: scale(1.2);
-	transition:all 0.5s;
-}
-.header {
-	background:#DDD7CB ;
-	color:#505050;
-	border: 30px;
-	padding: 50px 0;
-	text-align: center;
-	height: 150px
 
-}.header-container{
-	color: #fff
+.anim-shape {
+  -webkit-transform-origin: 0x 150px;
+  -ms-transform-origin: 0x 150px;
+  transform-origin: 0x 150px;
+  -webkit-transform: scale(0, 1) translate(0, 0);
+  -ms-transform: scale(0, 1) translate(0, 0);
+  transform: scale(0, 1) translate(0, 0);
+  -webkit-animation: moving-panel 3s infinite alternate;
+  animation: moving-panel 3s infinite alternate;
 }
-.subtitulo{
-	font-size: 20px;
-	height: 55px;
-	padding: 20px;
-	text-align: left;
-}
-.header{
-	padding: 5px 10px ;
-	margin: auto;
-	color: #95917F;
-	background: #FFFFFF;
-	margin: 10px;
-}
-.header1{
-	padding: 5px 10px ;
-	margin: auto;
-	color: #7B5656;
-	border-bottom: solid #FFFFFF 1px;
-	background: #EFECE7;
-}
-.logo{
 
-	width: 150px;
-	height: 100px;
-	
+.colortext .anim-shape:nth-child(1) {
+  fill: #A30936;
 }
-nav ul{
-	list-style-type: none;
-	padding: 10px;
-	margin: 30px;
-	float: left;
-	font-size: 14px;
-	line-height: 14px;
-	text-transform: ;
-	white-space: nowrap;
-	background: #A30934 ;
 
+.colortext .anim-shape:nth-child(2) {
+  fill: #A30936;
 }
-nav li{
-	position: relative;
-	float: left;
-	margin: 0;
-	padding: 10px;
-	font-family: arial;
-}
-nav li:hover a {
-	background: #585858;
-}
-nav a{
-	text-decoration: none;
-	padding: 5px 10px;
-	color: #eee;
-	text-shadow:2px 2px 4px #000;
-	text-align: center;
-}
-nav a:hover{
-	color: #fff;
-}
-p{
-	text-align: justify;
-	font-family:'Roboto', sans-serif;
-	font-size: 15px;
-	height: 100%;
-	width: 100% ;
-    padding: 20px;
-}
-.contenedor{
-	width: 100%;
-	height: 100%;
-	padding: 50px;
-	background: #EFECE7;
-}
-.marco{
-	width: 100%;
-	height: 50px;
-	border: solid #ED9819 1px;
-	padding: 5px;
-	text-align: center;
-	margin: 15px;
-}
-.bajo  {
-	height: 100px;
-	background:#95917F;
-	padding: 20px;
 
+.colortext .anim-shape:nth-child(3) {
+  fill: #A30936;
+}
+
+.colortext .anim-shape:nth-child(4) {
+  fill: #A30936;
+}
+
+.colortext .anim-shape:nth-child(5) {
+  fill: #A30936;
+}
+
+.shadow {
+  -webkit-transform: translate(10px, 10px);
+  -ms-transform: translate(10px, 10px);
+  transform: translate(10px, 10px);
+}
+
+.anim-shape--shadow {
+  fill: #000;
+  fill-opacity: .2;
+}
+
+@-webkit-keyframes moving-panel {
+  100% {
+    -webkit-transform: scale(1, 1) translate(20px, 0);
+    transform: scale(1, 1) translate(20px, 0);
+  }
+}
+
+@keyframes moving-panel {
+  100% {
+    -webkit-transform: scale(1, 1) translate(20px, 0);
+    transform: scale(1, 1) translate(20px, 0);
+  }
+}
+
+/* Other stuff */
+
+.titulo {
+  background:#95917F;
+  font: 4.4em/1 Open Sans, Impact;
+  text-transform: uppercase;
+  height: 200px;
+}
+
+svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+h2,p,li{
+  color: gray;
+}
+li{
+  text-align: justify;
+}
+.concepto{
+  display: table;
+  border:transparent;
+}
+.industrial{
+  background: #EFECE7;
+  width: 1345;
+}
+.industrial p{
+  color:  gray;
+  width:80%;
+  position: relative;
+  left:10%;
+  padding:20px;
+}
+.cuadro{
+  padding: 40px;
+}
+.obj{
+  background: #EFECE7;
+  width: 35%;
+  height: 35%;
+  border-radius: 5px 30px 45px 60px;
+  box-shadow: 2px 2px 5px #999;
+}
+{
+  color: black;
+}
+.lista h2{
+  padding: 0 0 50px 0;
+}
+.campo{
+  position: relative;
+  left: 20%;
+  width: 800px;
+  border:transparent;
+  display: table;
 }
