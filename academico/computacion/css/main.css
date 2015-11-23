@@ -84,10 +84,11 @@ li{
 .concepto{
   display: table;
   border:transparent;
+  padding: 50px;
 }
 .industrial{
   background: #DDD7Ca;
-  width: 1345;
+  width: 100%;
 }
 .industrial p{
   color:  #383434;

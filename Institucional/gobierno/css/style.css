@@ -9,6 +9,7 @@ body{
 .misi{
   padding: 50px;
   background: #FF8000;
+  display: table;
 }
 .inf{
   display: table;
