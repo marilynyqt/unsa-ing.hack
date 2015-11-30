@@ -1,111 +1,71 @@
 body{
-	background: #F5ECCE;
+  background: #EFECE7;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
-h2{
-	font-family: 'Roboto', sans-serif;
-}
+
 .menu{
-	background:#A30936;
-	padding: 10px;
-	width: 1361px;
-	position: fixed;
-	
-}
-.menu li:hover{
-	background-color: #ECECEC;
-}
-.menu li{
-	display: inline-block;
-	padding: 10px;
-}
-.menu a{
-	color: white;
-	font-size: 16px;
-}
-/* Main styles */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
-
-.text--transparent {
-  fill: transparent;
-}
-
-.anim-shape {
-  -webkit-transform-origin: 0x 150px;
-  -ms-transform-origin: 0x 150px;
-  transform-origin: 0x 150px;
-  -webkit-transform: scale(0, 1) translate(0, 0);
-  -ms-transform: scale(0, 1) translate(0, 0);
-  transform: scale(0, 1) translate(0, 0);
-  -webkit-animation: moving-panel 3s infinite alternate;
-  animation: moving-panel 3s infinite alternate;
-}
-
-.colortext .anim-shape:nth-child(1) {
-  fill: #0E1826;
-}
-
-.colortext .anim-shape:nth-child(2) {
-  fill: #166973;
-}
-
-.colortext .anim-shape:nth-child(3) {
-  fill: #65BFA6;
-}
-
-.colortext .anim-shape:nth-child(4) {
-  fill: #F2CD5C;
-}
-
-.colortext .anim-shape:nth-child(5) {
-  fill: #F26444;
-}
-
-.shadow {
-  -webkit-transform: translate(10px, 10px);
-  -ms-transform: translate(10px, 10px);
-  transform: translate(10px, 10px);
-}
-
-.anim-shape--shadow {
-  fill: #000;
-  fill-opacity: .2;
-}
-
-@-webkit-keyframes moving-panel {
-  100% {
-    -webkit-transform: scale(1, 1) translate(20px, 0);
-    transform: scale(1, 1) translate(20px, 0);
-  }
-}
-
-@keyframes moving-panel {
-  100% {
-    -webkit-transform: scale(1, 1) translate(20px, 0);
-    transform: scale(1, 1) translate(20px, 0);
-  }
-}
-
-/* Other stuff */
-html, body {
-  height: 100%;
-}
-
-.nombre{
-  background:transparent;
-  font: 9.5em/1 Open Sans, Impact;
-  text-transform: uppercase;
-}
-
-svg {
-  position: relative;
+<<<<<<< HEAD
+  background: #95917F;
   width: 100%;
-  height: 100%;
+  height: 150px;
 }
-.imagenes  li img{
-	width: 100px;
+.main-menu.row{
+  background: #95917F;
+  width: 100%;
+  display: inline-block;
+
 }
-.escuelas {
-	background: #DDD7CB;
-	width: 1361px;
-	
+.dropdown{
+  display: inline-block;
+  margin: 30px 10px ;
+  text-align: center;
+}
+.dropdown a{
+  color: #333;
+  padding: 30px;
+  margin: 15px;
+}
+.list li{
+  transition: 0.5s;
+}
+.list li:hover{
+  box-shadow: 2px 2px 5px #610B21;
+  background: #D8D8D8;
+}
+.imagenes{
+  width: 100%;
+}
+.escuelas{
+  background: #95917F;
+  width: 100%;
+  padding: 40px;
+}
+.escuelas a{
+  color: #2A1B0A;
+  text-decoration: none;
+}
+.escuelas a:hover{
+  transform: scale(1.2)
+}
+.noticias{
+  background: #DDD7CB;
+  width: 100%;
+  padding: 30px;
+}
+.nota{
+  padding: 40px;
+}
+.nota img{
+  width: 200px;
+  height: 200px;
+  margin: 0 0 20px;
+}
+.direc{
+  background: white;
+  width: 100%;
+  padding: 30px;
+}
+.direc p{
+  color: solid gray;
 }

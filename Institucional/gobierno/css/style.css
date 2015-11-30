@@ -1,0 +1,16 @@
+h2{
+  color: #3B170B;
+}
+body{
+  background: #8A0808;
+  height: 100%;
+  width: 100%;
+}
+.misi{
+  padding: 50px;
+  background: #FF8000;
+  display: table;
+}
+.inf{
+  display: table;
+}

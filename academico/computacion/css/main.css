@@ -61,24 +61,7 @@
   }
 }
 
-<<<<<<< HEAD
-	width: 90px;
-	height: 100px;
-	
-}
-nav ul{
-	list-style-type: none;
-	padding: 10px;
-	margin: 15px;
-	float: left;
-	font-size: 14px;
-	line-height: 14px;
-	text-transform: ;
-	white-space: nowrap;
-	background: #A30934 ;
-=======
 /* Other stuff */
->>>>>>> 445ccea1442007c30af3bafd1113af8875d0a6e7
 
 .titulo {
   background:#95917F;
@@ -101,10 +84,11 @@ li{
 .concepto{
   display: table;
   border:transparent;
+  padding: 50px;
 }
 .industrial{
-  background: #DDD7CB;
-  width: 1345;
+  background: #DDD7Ca;
+  width: 100%;
 }
 .industrial p{
   color:  #383434;
@@ -114,12 +98,12 @@ li{
   padding:20px;
 }
 .cuadro{
-  padding: 40px;
+  padding: 40px;jy
 }
 .obj{
   background: #EFECE7;
   width: 35%;
-  height: 35%;
+  height: 70%;
   border-radius: 5px 30px 45px 60px;
   box-shadow: 2px 2px 5px #999;
 }
